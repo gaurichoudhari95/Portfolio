@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+   background-color: #052E51;
+   color: white;
+}
+.navigation-bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 4;
+  background: transparent;
+}
+.mymenus{
+  font-weight: bolder;
+}
+.mymenus:hover{
+  text-decoration: underline 5px line white;
+  font-weight: bolder;
+}
+.logo{
+  font-family: Arial black;
+  font-size: 30px;
+  color: royalblue;
+}
+.allsections{
+  position: relative;
+  top: 80px;
+  width: 100%;
+}
+.section{
+  width: 100%;
+  height: 100vh;
+}
+.section h1{
+  text-align: center;
+  margin-top: 250px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.home-section{
+  border: none;
+  width: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 90% 10%;
+  padding-top: 120px;
+}
+.home-img
+{
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 90% 10%;
+}
+.icon .fa-brands
+{
+  margin-top: 20%;
+  color: royalblue ;
+
+}
+.myinfo{
+  height: 450px;
+  width: 50%;
+  margin: 0% 4%;
+  padding-top: 10%;
+}
+.info-home{
+  font-size: 30px;
+  font-family: elephant;
+}
+.myname{
+  font-size: 50px;
+}
+.fsjd{
+  font-family: elephant;
+  font-size: 30px;
+  color: orangered;
+}
+.rsm{
+  height: 60px;
+  transition: width 2s;
+}
+.rsm:hover
+{
+  color: royalblue;
+  border: 3px solid royalblue;
+  transform: scale(1.1);
+  width: 150px;
+  height: 150px;
+}
+.about-section
+{
+  display: flex;
+}
+.aboutsect
+{
+  height: 500px;
+}
+.myimg
+{
+  width: 40%;
+  margin-top: 10%;
+  padding-bottom: 8%;
+  padding-left: 130px;
+}
+
+.cobj
+{
+  padding: 30px 80px;
+  margin-left: 60px;
+}
+.career
+{
+  text-align: justify;
+  font-size: 22px;
+  margin-top: 50px;
+  text-indent: 20%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  line-height: 40px;
+}
+.skills-section
+{
+  height: 900px;
+  border: none;
+  padding: 2px 20px;
+/*  margin-bottom: 60px;*/
+
+}
+.skill-rows td
+{
+  padding: 20px;
+}
+.skill-table
+{
+  margin-top: 50px;
+  background-color: white;
+}
+.skill-table:hover
+{
+  background-color: whitesmoke;
+}
+.skill-heading
+{
+  font-size: 25px;
+  color: orangered;
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: Arial Black;
+  text-decoration: underline 3px solid orangered;
+}
+.skill-content
+{
+  font-family: sans-serif;
+  color: white;
+}
+.skill-rows td div
+{
+  height: 220px;
+  transition: width 2s;
+  transition: height 2s;
+  
+}
+.skill-content .skill-heading:hover
+{
+  font-weight: bolder;
+}
+.skill-rows td div:hover
+{
+  box-shadow: 0px 0px 14px grey;
+  width: 600px;
+  height: 250px;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.project-section
+{
+  padding: 20px;
+  border: none;
+}
+.all-projects
+{
+  margin-top: 40px;
+}
+.card-title
+{
+  color: orangered;
+  font-weight: bolder;
+}
+.card-img-top
+{
+  height: 200px;
+  width: 200px;
+}
+.project-section
+{
+  height: 1400px;
+}
+.con_details{
+  color: #3264a8;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.cnt_form{
+  padding: 15px;
+  font-size: 15px;
+  color: black;
+  background-color: whitesmoke;
+  width: 500px;
+
+}
+.form-group{
+  font-size: 25px !important;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+}
+label
+{
+  background-color: whitesmoke;
+  color: black;
+}
+.contact .sect
+{
+  height: 1000px;
+  padding-top: 8%;
+}
+.form-control
+{
+ color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
